@@ -1,6 +1,7 @@
 {
+    "port": "COM6",
     "configuration": "PSRAM=disabled,PartitionScheme=default,FlashFreq=80,UploadSpeed=921600,DebugLevel=none",
     "board": "esp32:esp32:d32_pro",
-    "port": "COM6",
-    "sketch": "test.ino"
+    "programmer": "esp32:esptool",
+    "sketch": "Arduino_work\\.vscode\\arduinoapp\\test.ino"
 }
